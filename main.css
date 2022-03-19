@@ -39,16 +39,44 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     gap: .3rem;
     /* background: rgb(107, 103, 99); */
-    background: rgb(99, 2, 209);
+    background: rgb(86, 6, 179);
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     padding: .5rem 0;
     font-weight: bold;
+    display: none;
 }
 .pokemon-types {
     font-weight: bold;
+}
+.stats-wrapper {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    /* height: 50px;
+    width: 100px;
+    background: red;
+    bottom: 0; */
+    border: 1px solid;
+    border-radius: .5rem;
+    padding: 0 5px;
+}
+.char-stats {
+    margin: 1px 0;
+    border-radius: 15px;
+    font-size: 75%;
+    text-align: left;
+    width: 240px;
+
+    /* border: 1px solid; */
+}
+.back-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -30%);
+    z-index: 0;
 }
 .stats-btn, .hide-stats-btn {
     border: none;
