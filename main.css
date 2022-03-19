@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.container {
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: .3rem;
+    background: rgb(24, 209, 184);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+}
+.pokemon-wrapper {
+    padding: .5rem;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
