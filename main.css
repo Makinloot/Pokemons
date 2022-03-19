@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
     max-width: 100%;
     margin: 0 auto;
     padding: .3rem;
-    background: rgb(24, 209, 184);
+    background: rgb(228, 175, 0);
 }
 .wrapper {
     display: grid;
@@ -23,9 +23,39 @@ h1,h2,h3,h4,h5,h6 {
     gap: .5rem;
 }
 .pokemon-wrapper {
+    position: relative;
     padding: .5rem;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: .3rem;
+    background: rgb(86, 6, 179);
+    color: rgb(24, 209, 184);
+}
+.pokemon-stats {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+    /* background: rgb(107, 103, 99); */
+    background: rgb(99, 2, 209);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: .5rem 0;
+    font-weight: bold;
+}
+.pokemon-types {
+    font-weight: bold;
+}
+.stats-btn, .hide-stats-btn {
+    border: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    margin: .3rem 0 0 0;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
 }
