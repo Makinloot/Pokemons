@@ -39,6 +39,7 @@ h6 {
   gap: 0.3rem;
   background: rgb(86, 6, 179);
   color: rgb(239, 161, 255);
+  border-radius: 1rem;
 }
 .pokemon-stats {
   position: absolute;
@@ -80,7 +81,6 @@ h6 {
   border-radius: 15px;
   font-size: 75%;
   text-align: left;
-  width: 240px;
 }
 .front-img {
   width: 96px;

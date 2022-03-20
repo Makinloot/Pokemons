@@ -28,12 +28,12 @@ const generatePokemons = (data) => {
     const pokemonAbilityName = document.createElement("h2");
     const pokemonAbilities = document.createElement("p");
     const stats = document.createElement("div");
-    const statHp = document.createElement("div");
-    const statAttack = document.createElement("div");
-    const statDefense = document.createElement("div");
-    const statSpAttack = document.createElement("div");
-    const statSpDefense = document.createElement("div");
-    const statSpeed = document.createElement("div");
+    const statHp = document.createElement("p");
+    const statAttack = document.createElement("p");
+    const statDefense = document.createElement("p");
+    const statSpAttack = document.createElement("p");
+    const statSpDefense = document.createElement("p");
+    const statSpeed = document.createElement("p");
     const hideStats = document.createElement("button");
     let hideStatsMassive = document.querySelectorAll(".hide-stats-btn");
 
