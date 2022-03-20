@@ -46,6 +46,7 @@ const generatePokemons = (data) => {
     statSpAttack.classList.add("char-stats");
     statSpDefense.classList.add("char-stats");
     statSpeed.classList.add("char-stats");
+    pokemonImg.classList.add('front-img');
     pokemonImgBack.classList.add("back-img");
 
     showStats.classList.add("stats-btn");
@@ -64,7 +65,7 @@ const generatePokemons = (data) => {
     statSpeed.innerText =
       data[i].stats[5].stat.name + ": " + data[i].stats[5].base_stat;
     pokemonName.innerText = data[i].name;
-    pokemonImg.setAttribute("src", data[i].sprites.front_default);
+    pokemonImg.setAttribute("src", data[i].sprites.other.dream_world.front_default);
     // pokemonImgBack.setAttribute("src", data[i].sprites.back_default);
     pokemonImgBack.setAttribute("src", data[i].sprites.other.dream_world.front_default);
     pokemonTypes.innerText =

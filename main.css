@@ -82,6 +82,10 @@ h6 {
   text-align: left;
   width: 240px;
 }
+.front-img {
+  width: 96px;
+  height: 96px;
+}
 .back-img {
   position: absolute;
   top: 50%;
