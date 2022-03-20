@@ -65,7 +65,8 @@ const generatePokemons = (data) => {
       data[i].stats[5].stat.name + ": " + data[i].stats[5].base_stat;
     pokemonName.innerText = data[i].name;
     pokemonImg.setAttribute("src", data[i].sprites.front_default);
-    pokemonImgBack.setAttribute("src", data[i].sprites.back_default);
+    // pokemonImgBack.setAttribute("src", data[i].sprites.back_default);
+    pokemonImgBack.setAttribute("src", data[i].sprites.other.dream_world.front_default);
     pokemonTypes.innerText =
       "Types: " + data[i].types.map((type) => type.type.name).join(", ");
     // stats.

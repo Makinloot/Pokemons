@@ -86,8 +86,10 @@ h6 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-10%, -30%);
+  transform: translate(40%, -50%);
   z-index: 0;
+  width: 40px;
+  height: 40px;
 }
 .stats-btn,
 .hide-stats-btn {
@@ -111,5 +113,10 @@ h6 {
 @media (max-width: 530px) {
   .stats-wrapper {
     width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .pokemon-wrapper {
+    min-height: 220px;
   }
 }
