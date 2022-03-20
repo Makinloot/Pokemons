@@ -18,27 +18,16 @@ h6 {
   text-transform: capitalize;
 }
 .container {
-    position: relative;
+  position: relative;
   width: 1300px;
   max-width: 100%;
   margin: 0 auto;
   padding: 0.3rem;
 }
-.pages {
-    position: absolute;
-    bottom: -.3rem;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-}
-.pages a {
-  color: rgb(170, 255, 244);
-}
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
-  /* padding-bottom: 1rem; */
   margin-bottom: 3rem;
 }
 .pokemon-wrapper {
@@ -117,5 +106,10 @@ h6 {
   .wrapper {
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
+  }
+}
+@media (max-width: 530px) {
+  .stats-wrapper {
+    width: 100%;
   }
 }
